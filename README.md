@@ -8,7 +8,6 @@ The web application is client side only and doesn't persist any user data.
 
 - Web server of your choice
 - Project in Google API Console
-	- API-Key for the web application
 	- OAuth-2.0-Client-ID for the web application
 	- Activated Google Drive API in API Manager
 
@@ -27,6 +26,8 @@ git clone https://github.com/informatik-mannheim/MSP17-bilderrahmen-webapp.git
 ```
 
 Copy the files into the appropriate folder of your web server and start it.
+
+Replace the client_id in GDriveService.js with your own OAuth-2.0-Client-ID.
 
 Visit your Project in the Google API Console and click on the OAuth-2.0-Client-ID of your web application.
 Enter the URL of your web server under 'Authorized JavaScript origins' and 'Authorized redirect URIs' and save them.
