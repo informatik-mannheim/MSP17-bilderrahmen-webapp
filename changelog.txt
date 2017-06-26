@@ -1,0 +1,4 @@
+bilderrahmen - Changelog
+========================
+
+Version 1.0 - 28.06.2017 - First public release

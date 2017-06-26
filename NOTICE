@@ -1,0 +1,18 @@
+=========================================================================
+==  NOTICE file corresponding to the section 4 d of                    ==
+==  the Apache License, Version 2.0,                                   ==
+==  in this case for the bilderrahmen distribution.                    ==
+=========================================================================
+
+This product includes software developed by
+The Apache Software Foundation (http://www.apache.org/).
+
+It includes the following other software:
+
+Bootstrap under MIT License (https://github.com/twbs/bootstrap)
+JavaScript Image Compressor under MIT License (https://github.com/brunobar79/J-I-C/)
+Stomp Over Websocket under Apache-2.0 License (http://www.jmesnil.net/stomp-websocket/doc/)
+For licenses see the LICENSE file.
+
+If any software distributed with Gradle does not have an Apache 2 License, its license is explicitly listed in the
+LICENSE file.

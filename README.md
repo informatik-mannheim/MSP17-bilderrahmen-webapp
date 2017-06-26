@@ -6,22 +6,23 @@ The web application is client side only and doesn't persist any user data.
 
 ## Prerequisites
 
-```
-Web server of your choice
-Project in Google API Console
-	API-Key for the web application
-	OAuth-2.0-Client-ID for the web application
-	Activated Google Drive API in API Manager
-```
+- Web server of your choice
+- Project in Google API Console
+	- API-Key for the web application
+	- OAuth-2.0-Client-ID for the web application
+	- Activated Google Drive API in API Manager
+
 
 ## Installing
-Clone this repository or download it as ZIP.
+Clone this repository or download it as ZIP:
 
 ```
 https://github.com/informatik-mannheim/MSP17-bilderrahmen-webapp/archive/master.zip
+```
 
 or
 
+```
 git clone https://github.com/informatik-mannheim/MSP17-bilderrahmen-webapp.git
 ```
 

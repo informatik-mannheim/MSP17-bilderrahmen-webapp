@@ -1,0 +1,46 @@
+.bilderrahmen-header {
+    padding-top: 2%;
+    padding-left: 7%;
+    width: 100%;
+}
+
+.bilderrahmen-blue {
+    color: #2aabd2;
+}
+
+.bilderrahmen-padding-left {
+    padding-left: 7%;
+}
+
+.img-wrap {
+    position: relative;
+    display: inline-block;
+    font-size: 0;
+}
+.img-wrap .close {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    z-index: 100;
+    padding: 5px 5px 5px;
+    color: #FF0000;
+    font-weight: bold;
+    opacity: 1;
+    text-align: center;
+    font-size: 22px;
+    line-height: 10px;
+    border-radius: 50%;
+}
+
+.bilderrahmen-padding-bottom {
+    padding-bottom: 20px;
+}
+
+.bilderrahem-remove-side-padding {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.bilderrahmen-btn-margin {
+    margin: 2%;
+}
