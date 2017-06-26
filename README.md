@@ -26,15 +26,10 @@ or
 git clone https://github.com/informatik-mannheim/MSP17-bilderrahmen-webapp.git
 ```
 
-```
 Copy the files into the appropriate folder of your web server and start it.
-```
 
-```
 Visit your Project in the Google API Console and click on the OAuth-2.0-Client-ID of your web application.
-Enter the URL of your web server under 'Authorized JavaScript origins' 
-and 'Authorized redirect URIs' and save them.
-```
+Enter the URL of your web server under 'Authorized JavaScript origins' and 'Authorized redirect URIs' and save them.
 
 ## License
 This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENSE) file for details.
