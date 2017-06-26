@@ -30,8 +30,8 @@ Copy the files into the appropriate folder of your web server and start it.
 ```
 
 ```
-Visit your Project in the Google API Console and click the OAuth-2.0-Client-ID.
-Enter the URL of your web server under 'Authorized JavaScript origins' and 'Authorized redirect URIs'.
+Visit your Project in the Google API Console and click on the OAuth-2.0-Client-ID of your web application.
+Enter the URL of your web server under 'Authorized JavaScript origins' and 'Authorized redirect URIs' and save them.
 ```
 
 ## License
