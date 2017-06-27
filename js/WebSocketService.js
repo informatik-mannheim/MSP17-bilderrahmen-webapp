@@ -8,6 +8,7 @@ var webSocketService = {
         gDriveService.getTokenFromDrive().then(function(token) {
             var wsocket = new SockJS('https://' + location.hostname +':8443/websocket');
             var client = Stomp.over(wsocket);
+            client.debug=null;
             client.connect({}, function (frame) {
                 client.send("/bilderrahmen/filesync/" + token.appProperties.tokenValue, {}, JSON.stringify({
                     createdFiles: createdFiles,

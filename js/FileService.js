@@ -120,16 +120,13 @@ var fileService = {
                 }
                 //delete button functionallity for pictures
                 $('img.close').on('click', function (e) {
-                    var parent = $(this);
                     e.preventDefault();
                     var id = $(this).next().attr('id');
                     var parent_div = $('#' + id).parent('div').parent('div');
-                    $('#delete_button').one('click', function(e) {
-                        parent.next().fadeTo(300, 0, function () {
-                            parent_div.remove();
-                        });
-                        gDriveService.deletePictureById(id);
+                    $(this).next().fadeTo(300, 0, function () {
+                        parent_div.remove();
                     });
+                    gDriveService.deletePictureById(id);
                 });
             });
         });
@@ -161,7 +158,7 @@ var fileService = {
         var pic_element =
             '<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 thumbnail-div" style=" margin-top: 10px;" id=' + index + '>' +
                 '<div class="img-wrap" style="height: 225px; width: 300px">' +
-                    '<img class="close" src="images/trashbin.png" width="15%" data-toggle="modal" data-target="#confirm-delete">' +
+                    '<img class="close" src="images/trashbin.png" width="15%">' +
                     '<img src=' + (file.hasThumbnail ? file.thumbnailLink : file.webViewLink) + ' height="225px" width="300px" id=' + file.id + '>' +
                 '</div>' +
             '</div>';
